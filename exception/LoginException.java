@@ -1,0 +1,9 @@
+package com.rays.exception;
+
+public class LoginException extends Exception {
+
+	public LoginException() {
+		super("LoginId & Password Is Invalid");
+	}
+
+}
