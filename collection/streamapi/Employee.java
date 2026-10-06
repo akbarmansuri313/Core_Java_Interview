@@ -1,0 +1,22 @@
+package com.rays.collection.streamapi;
+
+public class Employee {
+
+	private String name;
+
+	private int salary;
+
+	public Employee(String name, int salary) {
+		this.name = name;
+		this.salary = salary;
+	}
+
+	public String getString() {
+		return name;
+	}
+
+	public int getSalary() {
+		return salary;
+	}
+
+}
