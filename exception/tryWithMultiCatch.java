@@ -12,7 +12,7 @@ public class tryWithMultiCatch {
 
 		try {
 
-			System.out.println(arr[6]);
+//			System.out.println(arr[6]);
 			
 			System.out.println(a / 0);
 
@@ -22,7 +22,7 @@ public class tryWithMultiCatch {
 
 			System.out.println(e);
 
-			System.exit(0);
+//			System.exit(0);
 
 		} catch (NullPointerException e) {
 

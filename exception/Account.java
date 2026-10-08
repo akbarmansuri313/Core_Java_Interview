@@ -17,7 +17,7 @@ public class Account {
 		System.out.println(balance);
 	}
 
-	public void withdrwal(double amount) throws InsufficientBalance {
+	public void withdrwal(double amount) throws InsufficientBalance  {
 
 		if (amount > balance) {
 

@@ -11,7 +11,6 @@ public class TestLoginException {
 			if (name.equals("admin")) {
 
 				System.out.println("Valid User");
-
 			} else {
 
 				throw new LoginException();
