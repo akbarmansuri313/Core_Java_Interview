@@ -10,22 +10,22 @@ public class ReadWriteLineByLine {
 
 	public static void main(String[] args) throws IOException {
 
-		BufferedReader reader = new BufferedReader(new FileReader("D:\\Hello.txt"));
+		BufferedReader bReader = new BufferedReader(new FileReader("D:\\Hello.txt"));
 
-		BufferedWriter writer = new BufferedWriter(new FileWriter("D:\\Email.txt"));
-		String line = reader.readLine();
+		BufferedWriter bWriter = new BufferedWriter(new FileWriter("D:\\WriteFile.txt"));
+		String line = bReader.readLine();
 
 		while (line != null) {
 			System.out.println(line);
 
-			writer.write(line);
-			writer.newLine();
+			bWriter.write(line);
+			bWriter.newLine();
 
-			line = reader.readLine();
+			line = bReader.readLine();
 
 		}
 
-		reader.close();
-		writer.close();
+		bReader.close();
+		bWriter.close();
 	}
 }
