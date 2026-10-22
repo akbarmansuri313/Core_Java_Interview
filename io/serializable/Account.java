@@ -5,7 +5,7 @@ import java.io.Serializable;
 public class Account implements Serializable {
 
 	public String name;
-	public int balance;
+	public transient int balance;
 
 	public Account(String name, int balance) {
 		this.name = name;

@@ -12,7 +12,6 @@ public class TestAccount {
 	public static void main(String[] args) throws FileNotFoundException, IOException, ClassNotFoundException {
 		
 		Account a = new Account("James", 5000);
-
 		System.out.println("Before Serilization = " + a);
 
 		ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("D://io//account.txt"));

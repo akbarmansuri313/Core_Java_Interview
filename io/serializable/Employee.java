@@ -1,4 +1,4 @@
-package com.rays.io.serializable;
+ package com.rays.io.serializable;
 
 import java.io.Externalizable;
 import java.io.IOException;

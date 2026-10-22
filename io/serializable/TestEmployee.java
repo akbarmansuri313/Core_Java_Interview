@@ -15,6 +15,8 @@ public class TestEmployee {
 
 		ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("D:\\io\\Employee.txt"));
 
+		System.out.println(out);
+
 		out.writeObject(e);
 
 		out.close();
