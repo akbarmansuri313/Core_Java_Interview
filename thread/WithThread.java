@@ -10,7 +10,7 @@ public class WithThread extends Thread {
 
 	@Override
 	public void run() {
-		for (int i = 1; i <= 5; i++) {
+		for (int i = 1; i <= 3; i++) {
 
 			System.out.println(i + " = " + name);
 		}

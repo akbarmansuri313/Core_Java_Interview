@@ -6,7 +6,7 @@ public class TestbackgrondDaemon {
 
 		BackGroundThread t1 = new BackGroundThread("Deomon Thread");
 
-		t1.setDaemon(true);
+		t1.setDaemon(true); // yeh htane se infinte chlega ..
 		t1.start();
 
 		for (int i = 1; i <= 5; i++) {

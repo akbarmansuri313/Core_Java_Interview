@@ -16,9 +16,9 @@ public class Account {
 
 	public void deposit(String name, int amount) {
 
-		// int total = getBalance() + amount;
-		// setBalance(total);
-		// System.out.println(name + " " + getBalance());
+//		 int total = getBalance() + amount;
+//		 setBalance(total);
+//		 System.out.println(name + " " + getBalance());
 
 		synchronized (this) {	
 			int total = getBalance() + amount;
